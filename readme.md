@@ -2,7 +2,7 @@
 
 [Người thực hiện](#trainee)
 
-[Live](link-github-page)
+[Live](https://khoaitayran9x.github.io/mix_demo/)
 
 ## Goal
 
@@ -24,6 +24,6 @@ browser sync.
 
 ## Trainee
 
-- Tên : ...
-- Ngày thực hiện : ...
-- Link online : ...
+- Tên : Nguyễn Đức Thanh
+- Ngày thực hiện : 8/8/2019
+- Link online : https://khoaitayran9x.github.io/mix_demo/
