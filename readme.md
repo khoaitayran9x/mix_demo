@@ -1,29 +1,5 @@
-# Base project for using Laravel mix 
+# Sử dụng SCSS trong phần giao diện bài 3
 
-[Người thực hiện](https://github.com/khoaitayran9x)
+- Người thực hiện:[Nguyễn Đức Thanh](https://github.com/khoaitayran9x)
 
-[Live](https://khoaitayran9x.github.io/mix_demo/public)
-
-## Goal
-
-- Sử dụng Laravel mix nhưng không phải trong 1 Laravel project
-- Cấu trúc cơ bản của 1 frontend project để làm quen với html template, sass,
-browser sync.
-
-## Steps
-
-- Bước 1: **Fork** repo này, sau đó clone về để thực hiện chỉnh sửa.
-- Bước 2: Cài đặt [nodejs](https://nodejs.org/en/) nếu chưa có
-- Bước 3: Từ thư mục gốc chạy npm install.
-- Bước 4: Chạy `npm run dev` sau đó vào thư mục public bằng trình duyệt. Tiếp đó thử chạy `npm run prod`, `npm run watch` xem khác nhau như thế nào.
-- Bước 5: Hoàn thiện thông tin trong mục [Người thực hiện](#trainee) và bật github page gán link vào chỗ [Live](link-github-page)
-- Bước 6: 
-  - Xóa dòng `public` trong file `.gitignore`
-- Bước 7: Commit những thay đổi và push lên repo của mình. Sau đó báo cho mentor và thực hiện yêu cầu tiếp theo như trong file đào tạo.
-
-
-## Trainee
-
-- Tên : Nguyễn Đức Thanh
-- Ngày thực hiện : 8/8/2019
-- Link online : https://khoaitayran9x.github.io/mix_demo/
+- [Live](https://khoaitayran9x.github.io/mix_demo/public)
