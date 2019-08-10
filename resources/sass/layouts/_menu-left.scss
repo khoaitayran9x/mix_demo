@@ -1,0 +1,30 @@
+.menu-left{
+	padding: 0 15px;
+	a{
+		color: $sixth-color;
+	}
+
+	li{
+		padding: 18px 15px;
+		border-bottom: 1px solid #eaeaea;
+		position: relative;
+		&:hover:after{
+			width: 6px;
+		}
+		&:after{
+			content: "";
+			position: absolute;
+			display: inline-block;
+			top: 0;
+			left: -15px;
+			width: 0px;
+			height: 52px;
+			background: $fourth-color;
+			transition: all .3s ease;
+		}
+
+		img{
+			margin-right: 20px;
+		}
+	}
+}

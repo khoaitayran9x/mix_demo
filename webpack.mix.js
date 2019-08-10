@@ -8,6 +8,7 @@ mix.copyDirectory('resources/*.html', 'public/');
 mix.sass('resources/sass/app.scss', 'public/css/')
    .scripts(['resources/js/app.js'], 'public/js/app.js');
 
+
 // mix.buildHtml({
 //     htmlRoot: 'resources/views/index.html', // Your html root file
 //     output: 'public/index.html', // The html output file

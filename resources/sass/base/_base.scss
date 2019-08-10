@@ -1,0 +1,32 @@
+*,
+body{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	font-size: $font-size-default;
+	line-height: 15px;
+	color: $first-color;
+	font-family: $font-family;
+	background: $second-color;
+}
+
+a{
+	text-decoration: none;
+	color: $third-color;
+}
+a:hover{
+	color: $fourth-color;
+}
+
+ul{
+	list-style: none;
+}
+
+.container{
+	max-width: 1170px;
+	margin: 0 auto;
+	overflow: auto;
+}

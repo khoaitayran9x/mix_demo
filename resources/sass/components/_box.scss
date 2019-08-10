@@ -1,0 +1,145 @@
+.box{
+	position: relative;
+	background: $white;
+	color: #222;
+	margin-bottom: 40px;
+	box-shadow: 0 0.5px 0 0 #ffffff inset, 0 1px 2px 0 #B3B3B3;
+	&.box-padding{
+		padding: 27px 20px;
+	}
+	.box-content{
+		img{
+			&:hover{
+				-webkit-transform: scale(1.15);
+			    transform: scale(1.15);
+			    -webkit-transition: .4s ease;
+			    transition: .4s ease;
+			}
+		}
+		
+	}
+	&.box-product, 
+	&.box-featured-product{
+		overflow: auto;
+		.heading{
+			display: inline-block;
+			float: left;
+		}
+		.list-tab{
+			float: right;
+			margin-right: 80px;
+			color: $third-color;
+		}
+		.top-box{
+			overflow: auto;
+			padding-top: 5px;
+		}
+
+	}
+
+	&.box-product {
+		.list-tab{
+			li{
+				display: inline-block;
+				margin-right: 15px;
+			}
+		}
+		.price-item{
+			width: 70%;
+		}
+		.item{
+			width: calc(25% - 20px);
+			float: left;
+			box-sizing: border-box;
+			margin-right: 25px;
+
+			&:last-child{
+				margin-right: 0;
+			}
+		}
+	}
+
+
+	&.box-featured-product {
+		.price-item{
+			width: 100%;
+		}
+		.item{
+			width: calc(33.33% - 15px);
+			float: left;
+			box-sizing: border-box;
+			margin-right: 15px;
+			margin-top: 55px;
+			&:last-child{
+				margin-right: 0;
+			}
+		}
+		.box-content{
+			padding: 0 20px;
+		}
+		.left-item{
+			float: left;
+		}
+		.right-item{
+			float: right;
+			text-align: left;
+			width: calc(100% - 90px);
+			padding-left: 20px;
+			
+		}
+		.box-content-text{
+			padding-top: 0;
+		}
+	}
+	
+	.heading{
+		font-size: 21.93px;
+		font-weight: 700;
+		text-transform: uppercase;
+	}
+	.top-box{
+		border-bottom: 1px solid #eaeaea;
+		padding-bottom: 28px;
+	}
+	.box-content{
+		padding-top: 30px;
+	}
+	.item:hover a{
+		color: $fourth-color;
+	}
+
+	.box-content-text{
+		padding-top: 25px;
+		color: #3d3d3d;
+	}
+	.price-item{
+		width: 50%;
+		margin:  0 auto;
+		td{
+			padding: 10px 0;
+		}
+	}
+	.price-through{
+		text-decoration: line-through;
+		color: #636363;
+	}
+	.price-offer{
+		color: $black;
+		font-weight: 700;
+	}
+	.arrow-group{
+		height: 50px;
+		padding: 20px;
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
+	.left-arrow,
+	.right-arrow{
+		padding:3px 10px 6px;
+	    border-radius: 50%;
+	    display: inline-block;
+	    margin-right: 2px;
+	}
+}
+

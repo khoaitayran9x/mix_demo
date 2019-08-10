@@ -1,0 +1,37 @@
+nav{
+	background: #f10e34;
+	text-transform: uppercase;
+	color: #fff;
+	overflow: auto;
+
+	.category-title{
+		font-weight: 700;
+		padding: 17.5px;
+
+		img{
+			margin-right: 18px;
+		}
+	}
+	.right-column{
+		ul {
+			a{
+				color: #fff;
+			}
+
+			li{
+				display: inline-block;
+				padding: 18px;
+
+				&:hover{
+					background: #fff;
+					color: #f10e34;
+				}
+
+				&:last-child{
+					margin-right: 0
+				}
+
+			}
+		}
+	}
+}

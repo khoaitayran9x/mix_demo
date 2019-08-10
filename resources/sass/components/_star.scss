@@ -1,0 +1,30 @@
+.rating {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+    > span {
+        display: inline-block;
+        position: relative;
+        width: 0.9em;
+        font-size: 20px;
+        color: #ffd700;
+
+        &:hover, &:hover ~ span{
+            color: transparent;
+            cursor: pointer;
+        }
+
+        &:hover:before,  &:hover ~ span:before{
+            content: "\2605";
+            position: absolute;
+            left: 0;
+            color: #ffd700;
+        }
+
+    }
+    .rated:before{
+        content: "\2605";
+        position: absolute;
+        left: 0;
+        color: #ffd700;
+    }
+}

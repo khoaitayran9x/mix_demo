@@ -1,0 +1,106 @@
+
+footer{
+	background: #222;
+	.container{
+		overflow: hidden;
+	}
+
+	a:hover{
+		text-decoration: underline;
+	}
+
+	.top-footer {
+		padding: 60px 0;
+		font-size: 14px;
+		overflow: auto;
+
+		a{
+			color: $first-color;
+		}
+
+		ul{
+			margin-top: 25px;
+
+			li{
+				padding: 9px 0;
+				position: relative;
+				&.li-time{
+					padding-left: 28px;
+				}
+			}
+		}
+
+		.col-footer{
+			width: 22%;
+			float: left;
+			&:last-child{
+				width: 34%;
+				float: left;
+				padding-left: 0;
+			}
+
+			&:nth-child(3){
+				ul{
+					margin-top: 40px;
+					padding-left: 20px;
+				}
+				a{
+					margin-left: 25px;
+				}
+				
+			}
+
+			&:nth-child(2){
+				padding-left: 40px;
+				a{
+					margin-left: 25px;
+				}
+			}
+		}
+		.heading-footer{
+			font-size: 18px;
+			font-weight: 700;
+			color: $white;
+			text-transform: uppercase;
+		}
+		p{
+			line-height: 23px;
+			margin-top: 20px;
+		}
+		.card-group{
+			display: flex;
+			flex-wrap: wrap;
+			> img {
+				margin: 12px 24px 7px 0;
+			}
+		}
+		.paymentoption{
+			margin: 55px 0 10px;
+		}
+	}
+	.list-contact {
+		li{
+			padding-left: 25px!important;
+		}
+	}
+	.mini-icon{
+		position: absolute;
+		top: 10px;
+		left: 0;
+	}
+	.bottom-footer{
+		padding: 40px 0;
+		background: #000;
+		color: #fff;
+		text-align: center;
+		a{
+			color: #fff;
+			margin-left: 25px;
+		}
+		.line{
+			&:first-child{
+			margin-bottom: 30px;
+			}
+		}
+	}
+}
