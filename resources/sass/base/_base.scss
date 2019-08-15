@@ -25,8 +25,26 @@ ul{
 	list-style: none;
 }
 
+//common
 .container{
 	max-width: 1170px;
 	margin: 0 auto;
 	overflow: auto;
 }
+.left-column{
+	width: 300px;
+	float: left;
+	margin-right: 40px;
+}
+.right-column{
+	width: 830px;
+	float: left;
+}
+.center{
+	text-align: center;
+}
+
+.lazy{
+	background: #eaeaea;
+}
+

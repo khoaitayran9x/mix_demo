@@ -1,5 +1,6 @@
 @import 'vendors/google-font-lato';
 
+
 @import 'base/config';
 @import 'base/base';
 
@@ -9,24 +10,5 @@
 @import 'layouts/nav';
 @import 'layouts/menu-left';
 @import 'layouts/footer';
-
-
-// common class
-.left-column{
-	width: 300px;
-	float: left;
-	margin-right: 40px;
-}
-.right-column{
-	width: 830px;
-	float: left;
-}
-.center{
-	text-align: center;
-}
-
-.lazy{
-	background: #eaeaea;
-}
 
 @import 'pages/home';
